@@ -1,0 +1,19 @@
+{
+  "root": true,
+  "extends": [
+    "plugin:@wordpress/eslint-plugin/recommended"
+  ],
+  "globals": {
+    "localStorage": true
+  },
+  "ignorePatterns": [
+    "**/vendor/**",
+    "**/elementor_booster/**"
+  ],
+  "rules": {
+    "test-unit": "off",
+    "no-console": "off",
+    "jsx-a11y/no-onchange": "off",
+    "@wordpress/no-global-event-listener": "off"
+  }
+}
